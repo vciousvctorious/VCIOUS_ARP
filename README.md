@@ -1,8 +1,7 @@
 # VCIOUS_ARP
 ARP POISON TOOL
-install required modules :
-pip3 install scapy
-or scapy-python3
-includes ipforwarding on/off scripts
-arp with care :)
-note : code is part of a bigger project. stay tunes
+part of a bigger project.
+RUN AS ROOT!
+sh ipforwad_on.sh
+python3 VCIOUS_ARP.py
+sh ipforwad_off.sh
