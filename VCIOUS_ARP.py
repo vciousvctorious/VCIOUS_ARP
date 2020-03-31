@@ -24,7 +24,7 @@ def main():
 #
     gateway = input("gateway ip : ")
     try:
-        gatway_mac = mac_gather(gateway)
+        gateway_mac = mac_gather(gateway)
     except:
         print("unreachable!")
         sys.exit()
@@ -37,7 +37,7 @@ def main():
     except KeyboardInterrupt:
         print("ARP ATTACK SUSPENDED :[")
         arp_cure(gateway, gateway_mac, target, target_mac)
-        arp_cure(target, target_mac, gateway, gateway_mac
+        arp_cure(target, target_mac, gateway, gateway_mac)
 #
-if __name__ == "__main__":
+if __name__ == '__main__':
     main()
